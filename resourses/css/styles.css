@@ -18,8 +18,18 @@ html {
 }
 
 
-/*----------ICONS-------------------*/
+/*----------features----------------*/
 
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+
+
+
+/*----------MEALS-------------------*/
+.secion-meals {
+  padding: 0;
+}
 .meals-showcase {
   list-style: none;
   width: 100%;
@@ -34,12 +44,23 @@ html {
 .meal-photo {
   width:100;
   margin: 0;
+  overflow: hidden;
+  background: #000;
 }
 
 .meal-photo img {
+  opacity: 0.7;
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s; 
 }
+
+.meal-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
+
 
 /*----------ICONS-------------------*/
 .icon-big {
@@ -55,11 +76,11 @@ html {
 /*----------------------------------*/
 
 .box {
-padding: 1%;
+  padding: 1%;
 }
 
 section {
-padding: 80px 0;
+  padding: 80px 0;
 }
 
 html {
@@ -119,10 +140,10 @@ h2:after {
 /*----------------------------------*/
 
 .long-copy {
-line-height: 145%;
-width: 70%;
-margin-left: 15%;
-text-align: -webkit-center;
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  text-align: -webkit-center;
 }
 
 
@@ -130,42 +151,42 @@ text-align: -webkit-center;
 
 .btn:link,
 .btn:visited {
-display: inline-block;
-padding: 10px 30px;
-font-weight: 300;
-text-decoration: none;
-border-radius: 200px;
-transition: background-color 0.50s, border 0.5s, color 0.5s;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.50s, border 0.5s, color 0.5s;
 }
 
 .btn-full:link,
 .btn-full:visited {
-background-color: #e67e22;
-border: 1px solid #e67e22;
-color: #fff;
-margin-right: 15px;
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-border: 1px solid #e67e22;
-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #e67e22;
 }
 
 .btn:hover,
 .btn:active {
-background-color: #cf6d10;
+  background-color: #cf6d10;
 }
 
 .btn-full:hover,
 .btn-full:active {
-border: 1px solid #e67e10;
+  border: 1px solid #e67e10;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-border: 1px solid #e67e22;
-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #e67e22;
 }
 
 
@@ -174,18 +195,18 @@ color: #e67e22;
 /*----------------------------------*/
 
 header{
-background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
-background-size: cover;
-background-position: center;
-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .hero-text-box{
-position: absolute;
-width: 1140px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo{
