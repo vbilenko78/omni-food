@@ -1,5 +1,5 @@
 # OmniFood
-Responsive Web-Design Project:
+Responsive Web-Design Project:isuru tharanga
 
 Hello, we’re Omnifood, your new premium food delivery service.
 We know you’re always busy. No time for cooking.
